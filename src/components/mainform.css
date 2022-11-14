@@ -1,0 +1,27 @@
+.form{
+    border:1px solid rgb(25, 209, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:99vh;
+}
+form{
+    border:1px solid rgb(21, 214, 21) ;
+    background-color:rgb(27, 225, 27) ;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(190, 13, 13, 0.533);
+}
+input:focus{
+    outline: none;
+}
+.buttons button{
+    
+    margin-left: 20px;
+    background-color: rgb(177, 177, 236);
+    border:0px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px #8888;
+    color:white;
+}
